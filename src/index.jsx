@@ -1,9 +1,19 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+
+import Homepage from './pages/Homepage';
+import Timeline from './pages/Timeline';
+import Details from './pages/Details';
+import Faq from './pages/Faq';
+
+import './index.scss';
 
 
-createRoot(document.body).render(
+createRoot(document.querySelector("main")).render(
     <StrictMode>
-        hello, world!
+        <Homepage />
+        <Timeline />
+        <Details />
+        <Faq />
     </StrictMode>
-)
+);
