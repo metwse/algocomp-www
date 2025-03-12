@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="162.00002"
+   height="162.00002"
+   viewBox="0 0 42.8625 42.8625"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xml:space="preserve"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="2.6974811"
+     inkscape:cx="-38.925203"
+     inkscape:cy="114.18059"
+     inkscape:window-width="1916"
+     inkscape:window-height="1033"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" /><defs
+     id="defs2" /><g
+     inkscape:label="logo"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-77.135904,-136.0429)"><path
+       id="rect11798"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.744639;stroke-linecap:square;stroke-opacity:0"
+       d="M 14.287497 14.287499 L 14.287497 28.574997 L -14.2875 28.574997 L -14.2875 42.862496 L 28.574996 42.862496 L 28.574996 31.502984 L 28.574996 28.574997 L 28.574996 14.287499 L 14.287497 14.287499 z "
+       transform="translate(91.423404,136.0429)"
+       inkscape:label="white" /><rect
+       style="fill:#00a5eb;fill-opacity:1;stroke:none;stroke-width:0.678364;stroke-linecap:square;stroke-opacity:0"
+       id="rect184"
+       width="14.2875"
+       height="14.2875"
+       x="0"
+       y="0"
+       transform="translate(91.423404,136.0429)"
+       inkscape:label="acm-blue" /></g></svg>

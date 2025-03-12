@@ -1,7 +1,7 @@
 export default function Faq() {
     return (
-        <div>
+        <section id="faq">
             faq
-        </div>
+        </section>
     );
 };

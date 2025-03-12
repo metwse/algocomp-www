@@ -1,0 +1,39 @@
+@use '../css/theme';
+
+
+header { 
+    display: flex;
+    margin-top: 1.25em; padding: 1.5em 3em;
+    width: calc(100% - 6em); max-width: 100em;
+    background: rgba(theme.$bg, .5); backdrop-filter: blur(1em);
+    border-radius: 8em;
+    justify-content: space-between; align-items: center;
+    overflow: hidden;
+    z-index: 2;
+
+    & > img {
+        height: 2em;
+    }
+
+    & > .buttons {
+        a {
+            padding: .5em 1em;
+            cursor: pointer;
+            transition: .3s background;
+            font-size: 1.125em; text-decoration: none;
+            color: theme.$fg;
+            
+            &:hover { 
+                background: theme.$bg; 
+            }
+        }
+    }
+}
+
+
+@media (max-width: 960px) {
+    header {
+        margin: 0; width: 100%;
+        border: none !important; border-radius: 0;
+    }
+}

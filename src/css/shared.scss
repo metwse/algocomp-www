@@ -1,0 +1,23 @@
+@use 'theme';
+
+
+.bd {
+    border: solid .125em theme.$bd1;
+}
+
+.rounded-button,
+.rounded-acm-button {
+    font-size: 1.125em;
+    border: solid .06125em theme.$bd1;
+    border-radius: .75em;
+}
+
+.rounded-acm-button {
+    background: theme.$base-color;
+    border-color: theme.$base-color;
+    box-shadow: 0px 0px 1em .125em theme.$base-color;
+
+    &:hover {
+        background: lighten($color: theme.$base-color, $amount: 4);
+    }
+}

@@ -1,0 +1,36 @@
+@use 'theme';
+
+* { 
+    box-sizing: border-box;
+    font: inherit;
+}
+
+:root {
+    --scroll-padding: 0;
+}
+
+body {
+    margin: 0;
+    background-color: theme.$bg; color: theme.$fg;
+    font-family: Ubuntu  sans;
+}
+
+main {
+    & > header {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    & > div {
+        width: 100dvw; height: 100dvh;
+        padding-top: var(--scroll-padding); scroll-padding-top: var(--scroll-padding);
+        scroll-snap-type: y mandatory;
+        overflow: auto;
+       
+        & > * {
+            min-height: calc(100dvh - var(--scroll-padding));
+            scroll-snap-align: start;
+        }
+    }
+}

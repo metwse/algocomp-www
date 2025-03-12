@@ -1,0 +1,14 @@
+@use 'theme';
+
+
+button {
+    padding: .5em 1em;
+    background: theme.$bg2; color: theme.$fg;
+    border: none;
+    cursor: pointer;
+    transition: .3s background;
+
+    &:hover {
+        background: lighten($color: theme.$bg2, $amount: 2);
+    }
+}

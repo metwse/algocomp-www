@@ -1,19 +1,28 @@
-import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
 
-import Homepage from './pages/Homepage';
-import Timeline from './pages/Timeline';
-import Details from './pages/Details';
-import Faq from './pages/Faq';
+import Navigation from './components/Navigation.jsx'
 
-import './index.scss';
+import Homepage from './pages/homepage/Homepage'
+import Timeline from './pages/timeline/Timeline'
+import Details from './pages/details/Details'
+import Faq from './pages/faq/Faq'
+
+import './css/index.scss'
+import './css/default.scss'
+import './css/shared.scss'
 
 
-createRoot(document.querySelector("main")).render(
+const main = document.querySelector('main'); 
+
+createRoot(main).render(
     <StrictMode>
-        <Homepage />
-        <Timeline />
-        <Details />
-        <Faq />
+        <Navigation />
+        <div>
+            <Homepage />
+            <Timeline />
+            <Details />
+            <Faq />
+        </div>
     </StrictMode>
 );

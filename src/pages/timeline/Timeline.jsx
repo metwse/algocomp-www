@@ -1,7 +1,7 @@
 export default function Timeline() {
     return (
-        <div>
+        <section id="timeline">
             timeline
-        </div>
+        </section>
     );
 };

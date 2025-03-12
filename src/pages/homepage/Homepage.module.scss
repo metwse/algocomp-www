@@ -1,0 +1,47 @@
+@use '../../css/theme';
+
+.homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; align-items: center;
+}
+
+.center {
+    display: flex;
+    flex-direction: column; gap: 1.5em;
+    align-items: center;
+
+    & > img {
+        width: min(64em, calc(100vw - 4em));
+    }
+
+    & > span {
+        font-size: 1.25em;
+        opacity: .75;
+    }
+
+    & > .buttons {
+        display: flex;
+        gap: 1.5em;
+    }
+}
+
+.sponsors {
+    & > span {
+        display: block;
+        margin: auto;
+        font-size: 1.25em; text-align: center;
+    }
+
+    & > div {
+        display: flex; 
+        padding: 2em 3em 4em; max-width: min(calc(100vw - 4em), 50em);
+        justify-content: center;
+        flex-wrap: wrap; gap: 2em;
+
+        * {
+            height: 1.5em;
+            filter: saturate(0) brightness(2); opacity: .75;
+        }
+    }
+}
