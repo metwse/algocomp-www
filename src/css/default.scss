@@ -1,4 +1,5 @@
 @use 'theme';
+@use 'sass:color';
 
 
 button {
@@ -9,6 +10,6 @@ button {
     transition: .3s background;
 
     &:hover {
-        background: lighten($color: theme.$bg2, $amount: 2);
+        background: color.adjust($color: theme.$bg2, $lightness: 5%);
     }
 }
