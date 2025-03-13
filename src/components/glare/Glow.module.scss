@@ -1,0 +1,11 @@
+@use '../../css/theme.scss';
+
+
+.glare {
+    clip-path: ellipse(50% 50% at 50% 50%);
+    background: radial-gradient(ellipse,
+                                rgba($color: theme.$fg, $alpha: .06) 0%,
+                                rgba($color: theme.$fg, $alpha: 0) 50%,
+                                rgba($color: theme.$fg, $alpha: 0) 100%);
+    
+}

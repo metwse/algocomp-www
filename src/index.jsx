@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
-import Navigation from './components/Navigation.jsx'
+import Navigation from './components/navigation/Navigation.jsx'
 
 import Homepage from './pages/homepage/Homepage'
 import Timeline from './pages/timeline/Timeline'

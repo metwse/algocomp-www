@@ -26,7 +26,7 @@ export default function Navigation() {
 
     return (
         <header ref={headerRef} className="bd">
-            <img src="/svg/logo-full.svg" />
+            <a href="/#homepage"><img src="/svg/logo-full.svg" /></a>
             <div className={styles['buttons']}>
                 <a href="/#timeline">Zaman Çizelgesi</a>
                 <a href="/#details">Yarışma Formatı</a>

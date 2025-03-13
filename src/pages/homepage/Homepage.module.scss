@@ -1,7 +1,7 @@
 @use '../../css/theme';
 
 .homepage {
-    display: flex;
+    display: flex; position: relative;
     flex-direction: column;
     justify-content: space-between; align-items: center;
 }
@@ -12,7 +12,7 @@
     align-items: center;
 
     & > img {
-        width: min(64em, calc(100vw - 4em));
+        width: min(64em, calc(100vw - 8em));
     }
 
     & > span {
@@ -44,4 +44,55 @@
             filter: saturate(0) brightness(2); opacity: .75;
         }
     }
+}
+
+.glare1,
+.glare2 {
+    width: 120em; height: 24em;
+    position: absolute;
+    top: -24em; right: -44em;
+    position: absolute;
+    rotate: 80deg;
+}
+
+.glare2 {
+    width: 96em;
+    rotate: -60deg;
+    top: -28em; right: -24em;
+}
+
+.homepage canvas {
+    width: 100%;
+    position: absolute; bottom: 0;
+    z-index: -3;
+}
+
+.gradients {
+    position: absolute;
+    inset: 0; z-index: -2;
+    background: 
+        linear-gradient(0deg, theme.$bg 0%, rgba($color: theme.$bg, $alpha: 0) 25%),
+        linear-gradient(-90deg, theme.$bg 0%, rgba($color: theme.$bg, $alpha: 0) 25%),
+        linear-gradient(90deg, theme.$bg 0%, rgba($color: theme.$bg, $alpha: 0) 25%);
+}
+
+.dotted-bg {
+    width: 75%; height: 60%;
+    position: absolute; top: -2em;
+    background-image: radial-gradient(circle, theme.$bg2 0%, theme.$bg2 10%, transparent 12.5%);
+    background-size: 1.5em 1.5em;
+    background-repeat: repeat;
+    z-index: -4;
+
+    &:after {
+        content: ''; 
+        position: absolute; inset: 0;
+        background: 
+          radial-gradient(ellipse, rgba($color: theme.$bg, $alpha: 0) 0%, theme.$bg 90%);
+    }
+}
+
+
+@media (max-width: 750px) {
+    .glare2 { display: none; }
 }

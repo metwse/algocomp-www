@@ -1,4 +1,4 @@
-@use '../css/theme';
+@use '../../css/theme';
 
 
 header { 
@@ -11,7 +11,7 @@ header {
     overflow: hidden;
     z-index: 2;
 
-    & > img {
+    & > a > img {
         height: 2em;
     }
 
