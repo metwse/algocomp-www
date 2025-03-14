@@ -1,0 +1,13 @@
+.timeline {
+    display: flex;
+    padding: 2em;
+    justify-content: center; gap: 1em;
+}
+
+
+@media (max-width: 960px) {
+    .timeline {
+        flex-direction: column;
+        justify-content: unset;
+    }
+}

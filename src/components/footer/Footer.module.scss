@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+    padding: 3em;
+    flex-direction: column; align-items: center; gap: 2em;
+
+    & > img {
+        width: 20em;
+    }
+
+    & > div {
+        display: flex;
+        gap: 2em;
+
+        & > * {
+            width: 1.5em; height: 1.5em;
+        }
+    }
+}
+
+
+@media (max-width: 450px) {
+    .footer {
+        & > img {
+            font-size: .8em;
+        }
+    }
+}

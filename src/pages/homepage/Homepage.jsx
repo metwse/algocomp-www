@@ -119,8 +119,6 @@ export default function Homepage() {
                     <img src="/svg/logo-full.svg" />
                     <img src="/svg/logo-full.svg" />
                     <img src="/svg/logo-full.svg" />
-                    <img src="/svg/logo-full.svg" />
-                    <img src="/svg/logo-full.svg" />
                 </div>
             </div>
         </section>

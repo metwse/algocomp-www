@@ -37,3 +37,7 @@ header {
         border: none !important; border-radius: 0;
     }
 }
+
+@media (max-width: 800px) {
+    .buttons { display: none }
+}

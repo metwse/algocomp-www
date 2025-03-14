@@ -96,3 +96,11 @@
 @media (max-width: 750px) {
     .glare2 { display: none; }
 }
+
+@media (max-width: 600px) {
+    .sponsors > div { 
+        padding-left: 0; padding-right: 0;
+    }
+
+    .center > img { width: calc(100vw - 3em); }
+}

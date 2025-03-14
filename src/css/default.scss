@@ -13,3 +13,8 @@ button {
         background: color.adjust($color: theme.$bg2, $lightness: 5%);
     }
 }
+
+h2 {
+    margin: 0;
+    font-size: 3em; font-weight: bold;
+}

@@ -1,0 +1,16 @@
+.faq {
+    display: flex;
+    flex-direction: column; gap: 2em;
+    justify-content: space-between;
+
+    & > div {
+        display: flex;
+        padding-top: 1em;
+        flex-direction: column; align-items: center; gap: 1em;
+
+        & > h2 {
+            padding: 0 1em;
+            text-align: center;
+        }
+    }
+}

@@ -1,10 +1,9 @@
 @use '../../css/theme.scss';
 
 
-
 .details {
     display: flex;
-    margin: auto; padding: 2em; max-width: 96em;
+    margin: auto; padding: 2em; max-width: 80em;
     position: relative;
     background-image: radial-gradient(circle at top, theme.$bg2, transparent 50%);
     gap: 4em; align-items: center;
@@ -21,11 +20,14 @@
     flex-direction: column; justify-content: center;
 
     & h2 {
-        font-size: 3em;
-        font-weight: bold;
+        margin-bottom: .75em;
     }
 
-    & div { opacity: .75; }
+    & div { 
+        font-size: 1.125em;
+        line-height: 1.25;
+        opacity: .75; 
+    }
 }
 
 .background-tiles {
@@ -47,4 +49,9 @@
             transparent .05em,
             transparent 3em,
         );
+}
+
+
+@media (max-width: 800px) {
+    .img { display: none }
 }
