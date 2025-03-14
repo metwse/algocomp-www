@@ -25,7 +25,7 @@ main {
     & > div {
         width: 100dvw; height: 100dvh;
         padding-top: var(--scroll-padding); scroll-padding-top: var(--scroll-padding);
-        scroll-snap-type: y mandatory;
+        scroll-snap-type: y proximity;
         overflow: hidden auto;
        
         & > * {
