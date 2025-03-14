@@ -106,7 +106,7 @@ export default function Homepage() {
                 <img src="/svg/logo-full-glow.svg" />
                 <span>Kayıtlar ...'a kadar açık!</span>
                 <div className={styles['buttons']}>
-                    <button className="rounded-button">Detaylı Bilgi</button>
+                    <button className="rounded-button" onClick={() => window.location.href = "#details"}>Detaylı Bilgi</button>
                     <button className="rounded-acm-button">Kayıt</button>
                 </div>
             </div>

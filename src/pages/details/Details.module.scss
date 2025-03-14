@@ -1,0 +1,50 @@
+@use '../../css/theme.scss';
+
+
+
+.details {
+    display: flex;
+    margin: auto; padding: 2em; max-width: 96em;
+    position: relative;
+    background-image: radial-gradient(circle at top, theme.$bg2, transparent 50%);
+    gap: 4em; align-items: center;
+}
+
+.img {
+    width: 48em; height: 24em;
+    padding: 8em;
+    background: white;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column; justify-content: center;
+
+    & h2 {
+        font-size: 3em;
+        font-weight: bold;
+    }
+
+    & div { opacity: .75; }
+}
+
+.background-tiles {
+    width: 80%; height: 60%;
+    position: absolute; top: 0; left: 0;
+    z-index: -1;
+
+    background-image: linear-gradient(-90deg, theme.$bg, transparent 16em),
+        linear-gradient(0deg, theme.$bg, transparent 16em),
+        repeating-linear-gradient(
+            theme.$bg2,
+            theme.$bg2 .05em,
+            transparent .05em,
+            transparent 3em,
+        ), repeating-linear-gradient(
+            90deg,
+            theme.$bg2,
+            theme.$bg2 .05em,
+            transparent .05em,
+            transparent 3em,
+        );
+}

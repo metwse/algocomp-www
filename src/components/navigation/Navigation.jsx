@@ -29,7 +29,7 @@ export default function Navigation() {
             <a href="/#homepage"><img src="/svg/logo-full.svg" /></a>
             <div className={styles['buttons']}>
                 <a href="/#timeline">Zaman Çizelgesi</a>
-                <a href="/#details">Yarışma Formatı</a>
+                <a href="/#format">Yarışma Formatı</a>
                 <a href="/#faq">SSS</a>
             </div>
             <button className="rounded-acm-button">Kayıt</button>

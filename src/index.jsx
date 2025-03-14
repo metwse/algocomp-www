@@ -4,8 +4,9 @@ import { createRoot } from 'react-dom/client'
 import Navigation from './components/navigation/Navigation.jsx'
 
 import Homepage from './pages/homepage/Homepage'
-import Timeline from './pages/timeline/Timeline'
 import Details from './pages/details/Details'
+import Timeline from './pages/timeline/Timeline'
+import Format from './pages/format/Format'
 import Faq from './pages/faq/Faq'
 
 import './css/index.scss'
@@ -20,8 +21,9 @@ createRoot(main).render(
         <Navigation />
         <div>
             <Homepage />
-            <Timeline />
             <Details />
+            <Timeline />
+            <Format />
             <Faq />
         </div>
     </StrictMode>
