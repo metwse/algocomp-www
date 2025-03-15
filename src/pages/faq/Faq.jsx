@@ -1,4 +1,6 @@
 import Footer from '../../components/footer/Footer';
+import Question from './Question';
+
 import styles from './Faq.module.scss'
 
 
@@ -7,7 +9,20 @@ export default function Faq() {
         <section id="faq" className={styles['faq']}>
             <div>
                 <h2>Sıkça Sorulan Sorular</h2>
-                NULL
+                <div className={styles['questions']}>
+                    <Question 
+                        question="NULL"
+                        description="NULL"
+                    />
+                    <Question 
+                        question="NULL"
+                        description="NULL"
+                    />
+                    <Question 
+                        question="NULL"
+                        description="NULL"
+                    />
+                </div>
             </div>
             <Footer />
         </section>

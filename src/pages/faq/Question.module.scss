@@ -1,0 +1,43 @@
+@use '../../css/theme.scss';
+
+
+.question {
+    display: flex;
+    margin: auto; width: min(48em, calc(100% - 4em));
+    background-color: theme.$bg2; border-radius: 1em;
+    flex-direction: column;
+}
+
+.header {
+    display: flex; 
+    padding: 1em;
+    justify-content: space-between; align-items: center; gap: 1em;
+    cursor: pointer;
+
+    h3 {
+        margin: 0;
+        font-size: 1.125em;
+        font-weight: bold;
+    }
+
+    i {
+        font-size: 2em;
+        rotate: -135deg; 
+        transition: rotate .3s;
+    }
+}
+
+.description {
+    margin: 0 1em 1em;
+    transition: margin .3s, height .3s;
+    interpolate-size: allow-keywords;
+    overflow: hidden;
+}
+
+.question:not([a-enabled]) {
+    .description {
+        margin-bottom: 0; height: 0;
+    }
+
+    i { rotate: 0deg; }
+}

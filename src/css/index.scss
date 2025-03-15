@@ -34,3 +34,12 @@ main {
         }
     }
 }
+
+::-webkit-scrollbar { 
+    width: 1em
+}
+::-webkit-scrollbar-thumb { 
+    background-color: theme.$bg2; 
+    border-radius: .125em; border: .25em solid transparent; 
+    background-clip: padding-box 
+}
