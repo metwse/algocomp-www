@@ -41,3 +41,9 @@ header {
 @media (max-width: 800px) {
     .buttons { display: none }
 }
+
+@media (max-width: 384px) {
+    header {
+        font-size: .8em;
+    }
+}

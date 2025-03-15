@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 
-import Glow from '../../components/glare/Glow.jsx'
+import Glow from '../../components/glow/Glow.jsx'
 import styles from './Homepage.module.scss'
 
 

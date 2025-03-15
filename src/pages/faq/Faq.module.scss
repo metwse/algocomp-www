@@ -1,7 +1,9 @@
 .faq {
     display: flex;
+    position: relative;
     flex-direction: column; gap: 2em;
     justify-content: space-between;
+    overflow: hidden;
 
     & > div {
         display: flex;
@@ -19,4 +21,19 @@
     display: flex;
     width: 100%;
     flex-direction: column; gap: 1.25em;
+}
+
+.glow1,
+.glow2 {
+    width: 120em; height: 48em;
+    position: absolute;
+    bottom: -24em; right: -44em;
+    position: absolute;
+    rotate: 80deg;
+    z-index: -1;
+}
+
+.glow2 {
+    bottom: -36em; left: -48em; right: unset;
+    rotate: -30deg;
 }
