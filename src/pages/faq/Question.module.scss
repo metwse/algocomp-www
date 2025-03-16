@@ -30,8 +30,9 @@
 .description {
     margin: 0 1em 1em;
     transition: margin .3s, height .3s;
-    interpolate-size: allow-keywords;
+    opacity: .8;
     overflow: hidden;
+    interpolate-size: allow-keywords;
 }
 
 .question:not([a-enabled]) {
