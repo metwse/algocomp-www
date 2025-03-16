@@ -2,7 +2,7 @@
 
 
 .format {
-    div {
+    & > div {
         margin: auto; padding: 2em 0;
         max-width: min(48em, calc(100% - 4em));
         border-bottom: .125em solid theme.$bg2;
@@ -10,15 +10,15 @@
         &:last-of-type {
             border: none;
         }
-    }
 
-    h3 {
-        margin: 0;
-        font-size: 2em; font-weight: bold;
-    }
+        h3 {
+          margin: 0;
+          font-size: 2em; font-weight: bold;
+        }
 
-    p {
-        margin: 1em 0 0;
-        opacity: .75;
+        div {
+          margin: 1em 0 0;
+          opacity: .75;
+        }
     }
 }

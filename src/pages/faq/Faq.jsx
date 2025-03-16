@@ -11,26 +11,25 @@ export default function Faq() {
             <div>
                 <h2>Sıkça Sorulan Sorular</h2>
                 <div className={styles['questions']}>
-                    <Question 
-                        question="NULL"
-                        description="NULL"
-                    />
-                    <Question 
-                        question="NULL"
-                        description="NULL"
-                    />
-                    <Question 
-                        question="NULL"
-                        description="NULL"
-                    />
-                    <Question 
-                        question="NULL"
-                        description="NULL"
-                    />
-                    <Question 
-                        question="NULL"
-                        description="NULL"
-                    />
+                    <Question title="NULL">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing 
+                        elit. Suspendisse varius enim in eros elementum 
+                        tristique. Duis cursus, mi quis viverra ornare, eros
+                        dolor interdum nulla, ut commodo diam libero vitae 
+                        erat. Aenean faucibus nibh et justo cursus id rutrum.
+                    </Question>
+                    <Question title="NULL">
+                        NULL
+                    </Question>
+                    <Question title="NULL">
+                        NULL
+                    </Question>
+                    <Question title="NULL">
+                        NULL
+                    </Question>
+                    <Question title="NULL">
+                        NULL
+                    </Question>
                 </div>
             </div>
             <Glow className={styles['glow1']} />
