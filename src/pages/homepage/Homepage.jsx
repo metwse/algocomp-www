@@ -119,11 +119,8 @@ export default function Homepage() {
       <div className={styles["sponsors"]}>
         <span>Sponsorlar</span>
         <div>
-          <img src="/svg/logo-full.svg" />
-          <img src="/svg/logo-full.svg" />
-          <img src="/svg/logo-full.svg" />
-          <img src="/svg/logo-full.svg" />
-          <img src="/svg/logo-full.svg" />
+          <img id="paribu-logo" src="/svg/paribuhub-logo.svg" />
+          <img src="/svg/algoleague-logo.png" />
         </div>
       </div>
     </section>
