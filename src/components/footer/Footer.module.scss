@@ -12,6 +12,17 @@
         gap: 2em;
 
         & > * { font-size: 1.5em; height: 1em; }
+
+        & > a {
+            color: #fff;
+            & > i {
+                cursor: pointer;
+            }
+            & > svg {
+                cursor: pointer;
+                width: 1em; height: 1em;
+            }
+        }
     }
 }
 

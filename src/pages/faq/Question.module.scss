@@ -16,7 +16,7 @@
 
     h3 {
         margin: 0;
-        font-size: 1.125em;
+        font-size: 1.25em;
         font-weight: bold;
     }
 
@@ -33,6 +33,7 @@
     opacity: .8;
     overflow: hidden;
     interpolate-size: allow-keywords;
+    font-size: 1.125em;
 }
 
 .question:not([a-enabled]) {
