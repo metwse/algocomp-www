@@ -50,12 +50,12 @@ footer {
 }
 
 
-@media (max-width: 450px) {
+@media (max-width: 28.125rem) {
     .footer {
         & > img { font-size: .8em; }
     }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 34rem) {
     .source { display: none; }
 }
