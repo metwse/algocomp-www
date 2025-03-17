@@ -7,12 +7,13 @@ footer {
     flex-direction: column; align-items: center; gap: 2em;
 
     & > img {
-        width: 20em;
+        width: min(20em, 100%);
     }
 
     & .links {
         display: flex;
-        gap: 2em;
+        justify-content: center; gap: 2em;
+        flex-wrap: wrap;
 
         & > * { font-size: 1.5em; height: 1em; }
 
@@ -50,12 +51,16 @@ footer {
 }
 
 
+@media (max-width: 34rem) {
+    .source { display: none; }
+}
+
 @media (max-width: 28.125rem) {
     .footer {
-        & > img { font-size: .8em; }
+      & > img { font-size: .8em; }
     }
 }
 
-@media (max-width: 34rem) {
-    .source { display: none; }
+@media (max-width: 21rem) {
+    .mit-license { display: none; }
 }

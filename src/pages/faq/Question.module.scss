@@ -16,8 +16,9 @@
 
     h3 {
         margin: 0;
-        font-size: 1.25em;
-        font-weight: bold;
+        min-width: 0;
+        font-size: 1.25em; font-weight: bold;
+        word-wrap: break-word;
     }
 
     i {

@@ -36,9 +36,11 @@ header {
 
 
 @media (max-width: 67.5rem) {
-    .wide-screen-button {
-        display: none;
-    }
+    .wide-screen-button { display: none; }
+}
+
+@media (max-width: 18.5rem) {
+    .rigth-button { display: none; }
 }
 
 @media (max-width: 60rem) {
@@ -55,7 +57,5 @@ header {
 }
 
 @media (max-width: 24rem) {
-    header {
-        font-size: .8em;
-    }
+    header { font-size: .8em; }
 }

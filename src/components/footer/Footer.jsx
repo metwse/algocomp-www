@@ -33,7 +33,7 @@ export default function Footer() {
                     <a href="/kvkk.html">
                         KVKK
                     </a>
-                    <a href="https://opensource.org/license/mit" target="_blank">
+                    <a className={styles['mit-license']} href="https://opensource.org/license/mit" target="_blank">
                         The MIT License
                     </a>
                 </div>
