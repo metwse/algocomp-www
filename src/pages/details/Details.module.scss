@@ -3,14 +3,17 @@
 
 .details {
     display: flex;
-    margin: auto; padding: 2em; max-width: 80em;
+    margin: auto; padding: 2em; max-width: 1280px;
     position: relative;
-    background-image: radial-gradient(circle at top, theme.$bg2, transparent 50%);
-    gap: 4em; align-items: center;
+    background-image: radial-gradient(ellipse at top, theme.$bg2, transparent 50%);
+    background-size: 100% 50%; background-repeat: no-repeat;
+    gap: 1em; align-items: center;
 }
 
 .img {
-    width: 48em;
+    margin-right: -2em;
+    width: 24em; height: 30em;
+    object-fit: cover;
 }
 
 .texts {
@@ -19,7 +22,6 @@
 
     & h2 {
         margin-bottom: .75em;
-        width: 13em;
     }
 
     & div { 
@@ -51,6 +53,6 @@
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 840px) {
     .img { display: none }
 }

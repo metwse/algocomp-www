@@ -3,20 +3,23 @@
 
 
 .timeline {
-    display: flex;
+    display: grid;
+    width: fit-content; height: fit-content;
     margin: 0 auto; padding: 2em; max-width: 1280px;
-    justify-content: center; align-content: space-between; gap: 3em;
+    justify-content: center; align-content: space-between;
+    grid-template-columns: 1fr max-content 1fr;
+
+    & h2 {
+        text-align: right;
+        grid-area: 1 / 1 / 99 / 2;
+    }
 }
 
 .header {
-    margin: 0 1em 1em;
+    margin: 0 0 1em;
     color: color.adjust(theme.$base-color, $lightness: 20%);
     text-align: center; 
     text-shadow: 0 0 .25em color.adjust(theme.$base-color, $lightness: 20%);
-}
-
-.list {
-    width: fit-content;
 }
 
 .list-symbol {
@@ -55,16 +58,16 @@
     }
 }
 
-.list {
-    display: grid;
-    height: fit-content;
-    grid-template-columns: max-content auto;
-}
-
 
 @media (max-width: 960px) {
     .timeline {
-        flex-direction: column;
-        justify-content: unset; align-items: center; gap: 1em;
+        padding: 1em;
+        grid-template-columns: 1fr auto;
+
+        & h2 {
+            margin-bottom: .5em;
+            text-align: center;
+            grid-area: 1 / 1 / 2 / 3;
+        }
     }
 }
