@@ -12,7 +12,7 @@ export default function Timeline() {
             </ListItem>
             <Header>Ön eleme süreci</Header>
             <ListItem time="22 Mart 10.30">
-                Kick-off ve practive session.
+                Kick-off ve practice session.
             </ListItem>
             <ListItem time="22 Mart 13.00 - 23.59">
                 Online ön eleme etabı.
