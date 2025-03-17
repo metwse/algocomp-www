@@ -31,6 +31,12 @@ header {
 }
 
 
+@media (max-width: 1080px) {
+    .wide-screen-button {
+        display: none;
+    }
+}
+
 @media (max-width: 960px) {
     header {
         margin: 0; width: 100%;
