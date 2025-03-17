@@ -20,7 +20,7 @@
 
 .award {
     display: flex;
-    color: color.adjust(theme.$base-color, $lightness: 16);
+    color: color.adjust(theme.$base-color, $lightness: 16%);
     flex-direction: column; align-items: center; gap: 2em;
 
     & > div {
