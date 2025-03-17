@@ -19,66 +19,70 @@
 }
 
 .award {
+  display: flex;
+  color: color.adjust(theme.$base-color, $lightness: 16%);
+  flex-direction: column; align-items: center; gap: 1em;
+
+  & > div {
     display: flex;
-    color: color.adjust(theme.$base-color, $lightness: 16%);
-    flex-direction: column; align-items: center; gap: 1em;
+    font-size: 2em;
+    align-items: center; gap: .5em;
 
-    & > div {
-        display: flex;
-        font-size: 2em;
-        align-items: center; gap: .5em;
+    & img { height: 4em; }
 
-        & img { height: 4em; }
+    & img:last-of-type { transform: scaleX(-1); }
+  }
 
-        & img:last-of-type { transform: scaleX(-1); }
-    }
-
-    & > span {
-        font-size: 1.5em;
-        font-weight: bold;
-        text-shadow: 0 0 .125em theme.$base-color;
-    }
+  & > span {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 0 0 .125em theme.$base-color;
+  }
 }
 
-.award:first-of-type,
-.award:last-of-type {
-    & > div {
-        & img { height: 2em ;}
-    }
+.p4, .p5 {
+    div img { height: 2em; }
 }
 
-.award:nth-of-type(2n) {
-    & > div {
-        & img { height: 3em ;}
-    }
+.p4 { transform: translate(100%, 150%) }
+
+.p5 { transform: translate(-100%, 150%) }
+
+.p3, .p2 {
+    transform: translateY(20%);
+
+    div img { height: 3em; }
 }
 
+.p6 {
+    margin-top: 2em;
 
-@media (max-width: 1000px) {
-    .award:first-of-type { transform: translate(100%, 150%) }
-
-    .award:last-of-type { transform: translate(-100%, 150%) }
-
-    .award:nth-of-type(2n) { transform: translateY(20%) }
+    div img { height: 1.5em; }
 }
+
 
 @media (max-width: 720px) {
+    .award { gap: .75em }
+
+    .p6 {
+        margin-top: 0;
+    }
+
     .award-list {
         display: grid;
         grid-template-columns: 1fr 1fr; gap: 1.25em .75em;
-    }
 
-    .award {
-        transform: translateY(0) !important;
-        gap: .75em
-    }
+        .award {
+            transform: translateY(0) !important;
+        }
 
-    .award:nth-of-type(1) { order: 5 }
-    .award:nth-of-type(2) { order: 3 }
-    .award:nth-of-type(3) { 
-        order: 1;
-        grid-column: 1 / 3;
+        .p4 { order: 5 }
+        .p2 { order: 3 }
+        .p1 { 
+            order: 1;
+            grid-column: 1 / 3;
+        }
+        .p3 { order: 4 }
+        .p5 { order: 6 }
     }
-    .award:nth-of-type(4) { order: 4 }
-    .award:nth-of-type(5) { order: 6 }
 }
