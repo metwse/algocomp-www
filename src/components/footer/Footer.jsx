@@ -4,7 +4,7 @@ import styles from "./Footer.module.scss"
 export default function Footer() {
     return (
         <footer className={styles['footer']}>
-            <img src="/svg/logo-full.svg" />
+            <img src="/img/svg/logo-full.svg" />
             <div>
                 <a href="https://github.com/ituacm" target="_blank">
                     <i className="bi bi-github"></i>

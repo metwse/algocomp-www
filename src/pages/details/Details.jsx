@@ -23,7 +23,7 @@ export default function Details() {
                     kanıtlama fırsatı sunuyor.
                 </div>
             </div>
-            <img src="svg/computer-image.svg" className={styles['img']}/>
+            <img src="/img/computer.webp" className={styles['img']}/>
         </section>
     );
 }

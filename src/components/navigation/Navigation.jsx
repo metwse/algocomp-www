@@ -25,7 +25,7 @@ export default function Navigation() {
     return (
         <header ref={headerRef} className="bd">
             <a href="/#homepage">
-                <img src="/svg/logo-full.svg" />
+                <img src="/img/svg/logo-full.svg" />
             </a>
             <div className={styles['buttons']}>
                 <a href="/#details" className={styles['wide-screen-button']}>

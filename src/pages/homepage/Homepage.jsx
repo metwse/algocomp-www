@@ -108,7 +108,7 @@ export default function Homepage() {
             <div>{/* intentionally left blank to center following div */}</div>
 
             <div className={styles['center']}>
-                <img src="/svg/logo-full-glow.svg" />
+                <img src="/img/svg/logo-full-glow.svg" />
                 <span>Kayıtlar 22 Mart'a kadar açık!</span>
                 <div className={styles['buttons']}>
                     <button
@@ -129,8 +129,8 @@ export default function Homepage() {
             <div className={styles['sponsors']}>
                 <span>Sponsorlar</span>
                 <div>
-                    <img src="/svg/paribuhub-logo.svg" />
-                    <img src="/svg/algoleague-logo.png" />
+                    <img src="/img/svg/paribuhub-logo.svg" />
+                    <img src="/img/svg/algoleague-logo.png" />
                 </div>
             </div>
         </section>
