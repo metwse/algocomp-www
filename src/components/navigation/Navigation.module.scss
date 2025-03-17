@@ -2,12 +2,13 @@
 
 
 header { 
-    display: flex;
+    display: grid;
     margin-top: 1.25em; padding: 1.5em 3em;
     width: calc(100% - 6em); max-width: 100em;
     background: rgba(theme.$bg, .5); backdrop-filter: blur(1em);
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
     border-radius: 8em;
-    justify-content: space-between; align-items: center;
     overflow: hidden;
     z-index: 2;
 
@@ -23,10 +24,13 @@ header {
             font-size: 1.125em; text-decoration: none;
             color: theme.$fg;
             
-            &:hover { 
-                background: theme.$bg; 
-            }
+            &:hover { background: theme.$bg; }
         }
+    }
+
+    .rigth-button button {
+        display: block;
+        margin-left: auto;
     }
 }
 
@@ -39,8 +43,10 @@ header {
 
 @media (max-width: 960px) {
     header {
+        display: flex;
         margin: 0; width: 100%;
         border: none !important; border-radius: 0;
+        justify-content: space-between; align-items: center;
     }
 }
 

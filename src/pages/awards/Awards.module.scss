@@ -19,25 +19,25 @@
 }
 
 .award {
-  display: flex;
-  color: color.adjust(theme.$base-color, $lightness: 16%);
-  flex-direction: column; align-items: center; gap: 1em;
-
-  & > div {
     display: flex;
-    font-size: 2em;
-    align-items: center; gap: .5em;
+    color: color.adjust(theme.$base-color, $lightness: 16%);
+    flex-direction: column; align-items: center; gap: 1em;
 
-    & img { height: 4em; }
+    & > div {
+        display: flex;
+        font-size: 2em;
+        align-items: center; gap: .5em;
 
-    & img:last-of-type { transform: scaleX(-1); }
-  }
+        & img { height: 4em; }
 
-  & > span {
-    font-size: 1.5em;
-    font-weight: bold;
-    text-shadow: 0 0 .125em theme.$base-color;
-  }
+        & img:last-of-type { transform: scaleX(-1); }
+    }
+
+    & > span {
+        font-size: 1.5em;
+        font-weight: bold;
+        text-shadow: 0 0 .125em theme.$base-color;
+    }
 }
 
 .p4, .p5 {

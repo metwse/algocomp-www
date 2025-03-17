@@ -36,7 +36,11 @@ export default function Navigation() {
                 <a href="/#format">Format</a>
                 <a href="/#faq">SSS</a>
             </div>
-            <button className="rounded-acm-button">Kayıt</button>
+            <div className={styles['rigth-button']}>
+                <button className="rounded-acm-button">
+                    Kayıt
+                </button>
+            </div>
         </header>
     );
 }
