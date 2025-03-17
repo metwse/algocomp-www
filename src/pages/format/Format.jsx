@@ -23,26 +23,34 @@ export default function Format() {
       </div>
       <div>
         <h3>Katılım Kuralları</h3>
-        <p>
-          Başvurular 11 Şubat 2024 tarihine kadar yapılmalıdır, bu tarihten
-          sonra başvuru alınmayacaktır ve yarışmacı kayıtları
-          sonlandırılacaktır.
-          <br />
-          <br />
-          Yarışmaya katılmak isteyenler 2 veya 3 kişilik takımlar halinde ya da
-          bireysel olarak başvuru yapabilirler. Takım halinde katılmak
-          isteyenlerin takım arkadaşları ile birlikte başvuru yapmaları
-          gerekmektedir. Ayrı ayrı başvuru yapan katılımcılar farklı takım
-          sayılacaktır ve takım halinde yarışamayacaklardır.
-          <br />
-          <br />
-          Yarışmaya üniversitede ön lisans/lisans eğitimi alan öğrenciler
-          katılabilir.
-          <br />
-          <br />
-          algoComp'un düzenlenmesinde görev almış öğrenciler yarışmaya
-          katılamamaktadır.
-        </p>
+        <ul>
+          <li>
+            Başvurular 11 Şubat 2024 tarihine kadar yapılmalıdır, bu tarihten
+            sonra başvuru alınmayacaktır ve yarışmacı kayıtları
+            sonlandırılacaktır.
+            <br />
+            <br />
+          </li>
+          <li>
+            Yarışmaya katılmak isteyenler 2 veya 3 kişilik takımlar halinde ya
+            da bireysel olarak başvuru yapabilirler. Takım halinde katılmak
+            isteyenlerin takım arkadaşları ile birlikte başvuru yapmaları
+            gerekmektedir. Ayrı ayrı başvuru yapan katılımcılar farklı takım
+            sayılacaktır ve takım halinde yarışamayacaklardır.
+            <br />
+            <br />
+          </li>
+          <li>
+            Yarışmaya üniversitede ön lisans/lisans eğitimi alan öğrenciler
+            katılabilir.
+            <br />
+            <br />
+          </li>
+          <li>
+            algoComp'un düzenlenmesinde görev almış öğrenciler yarışmaya
+            katılamamaktadır.
+          </li>
+        </ul>
       </div>
       <div>
         <h3>Puanlama ve Sıralama</h3>

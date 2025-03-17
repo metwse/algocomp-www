@@ -11,9 +11,27 @@ header {
     overflow: hidden;
     z-index: 2;
 
+    & > .nav-side-element{
+        display: flex; align-items: center;
+        width: 12em;
+        &.right-button{
+            justify-content: flex-end;
+            text-decoration: none;
+        }
+        &.left-logo{
+            justify-content: flex-start;
+        }
+    }
+
     & > a > img {
         height: 2em;
     }
+
+    & > .left-logo{
+        justify-content: flex-start;
+    }
+
+    
 
     & > .buttons {
         a {

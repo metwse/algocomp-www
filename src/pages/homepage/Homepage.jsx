@@ -112,7 +112,12 @@ export default function Homepage() {
           >
             Detaylı Bilgi
           </button>
-          <button className="rounded-acm-button">Kayıt</button>
+          <a
+            href="https://algoleague.com/contest/algocomp25-qualification-round/description"
+            target="_blank"
+          >
+            <button className="rounded-acm-button">Kayıt</button>
+          </a>
         </div>
       </div>
 

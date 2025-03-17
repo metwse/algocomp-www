@@ -6,6 +6,7 @@
     display: flex;
     margin: 0 auto; padding: 2em; max-width: 1280px;
     justify-content: center; align-content: space-between; gap: 3em;
+    ;
 }
 
 .header {
@@ -16,7 +17,7 @@
 }
 
 .list {
-    width: fit-content;
+    padding-right: 6em;
 }
 
 .list-symbol {
@@ -46,12 +47,14 @@
     h4 {
         margin: 0 0 .5em;
         font-size: 2em; font-weight: bold;
+        height: fit-content;
     }
     
     p {
         margin: 0 0 2em;
         opacity: .8;
         font-size: 1.125em;
+        height: fit-content;
     }
 }
 

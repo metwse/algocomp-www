@@ -11,7 +11,7 @@ export default function Timeline() {
           algoComp'25 için son başvuru tarihi.
         </ListItem>
         <Header>Ön eleme süreci</Header>
-        <ListItem time="22 Mart 10.30">Kick-off ve practive session.</ListItem>
+        <ListItem time="22 Mart 10.30">Kick-off ve practice session.</ListItem>
         <ListItem time="22 Mart 13.00 - 23.59">Online ön eleme etabı.</ListItem>
         <ListItem time="27 Mart">
           Resmî ön eleme sonuçlarının açıklanması.
