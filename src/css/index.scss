@@ -25,12 +25,10 @@ main {
     & > div {
         width: 100dvw; height: 100dvh;
         padding-top: var(--scroll-padding); scroll-padding-top: var(--scroll-padding);
-        scroll-snap-type: y proximity;
         overflow: hidden auto;
        
         & > * {
             min-height: calc(100dvh - var(--scroll-padding));
-            scroll-snap-align: start;
         }
     }
     

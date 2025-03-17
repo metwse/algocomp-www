@@ -23,7 +23,7 @@ export default function Format() {
       </div>
       <div>
         <h3>Katılım Kuralları</h3>
-        <p>
+        <div>
           Başvurular 11 Şubat 2024 tarihine kadar yapılmalıdır, bu tarihten
           sonra başvuru alınmayacaktır ve yarışmacı kayıtları
           sonlandırılacaktır.
@@ -42,11 +42,11 @@ export default function Format() {
           <br />
           algoComp'un düzenlenmesinde görev almış öğrenciler yarışmaya
           katılamamaktadır.
-        </p>
+        </div>
       </div>
       <div>
         <h3>Puanlama ve Sıralama</h3>
-        <p>
+        <div>
           Her çözüm, soru ekibimiz tarafından hazırlanmış belirli testlerden
           geçirilecektir. Testler sonucunda, takımlar tüm testleri geçtikleri
           takdirde puan kazanacaktır.
@@ -56,7 +56,7 @@ export default function Format() {
           alınacaktır. Birden fazla takımın eşit puan alması durumunda bu puanı
           daha kısa sürede toplayan takım sıralamada diğerlerinin önüne
           geçecektir.
-        </p>
+        </div>
       </div>
     </section>
   );
