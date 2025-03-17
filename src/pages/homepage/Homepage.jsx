@@ -117,7 +117,12 @@ export default function Homepage() {
                     >
                         Detaylı Bilgi
                     </button>
-                    <button className="rounded-acm-button">Kayıt</button>
+                    <button 
+                        className="rounded-acm-button"
+                        onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSdpULHQVWZxO-Da6K7Q2vTESoi7lSJgqIN_7OfYjSFSp2eBMw/viewform', '_blank')}
+                    >
+                        Kayıt
+                    </button>
                 </div>
             </div>
 

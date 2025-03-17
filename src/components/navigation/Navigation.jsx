@@ -37,7 +37,10 @@ export default function Navigation() {
                 <a href="/#faq">SSS</a>
             </div>
             <div className={styles['rigth-button']}>
-                <button className="rounded-acm-button">
+                <button 
+                    className="rounded-acm-button"
+                    onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSdpULHQVWZxO-Da6K7Q2vTESoi7lSJgqIN_7OfYjSFSp2eBMw/viewform', '_blank')}
+                >
                     Kayıt
                 </button>
             </div>
