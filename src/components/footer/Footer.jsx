@@ -13,7 +13,7 @@ export default function Footer() {
                     <i className="bi bi-instagram"></i>
                 </a>
                 <a href="mailto:algocomp@itu.acm.org" target="_blank">
-                    <i class="bi bi-envelope-plus-fill"></i>
+                    <i class="bi bi-envelope-at-fill"></i>
                 </a>
                 <a href="https://twitter.com/ituacmsc" target="_blank">
                     <i className="bi bi-twitter-x"></i>
