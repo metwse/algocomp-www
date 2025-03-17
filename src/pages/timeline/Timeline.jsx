@@ -1,9 +1,10 @@
-import { Header, ListItem } from "./components";
-import styles from "./Timeline.module.scss";
+import { Header, ListItem } from "./components"
+import styles from "./Timeline.module.scss"
+
 
 export default function Timeline() {
     return (
-        <section id="timeline" className={styles["timeline"]}>
+        <section id="timeline" className={styles['timeline']}>
             <h2>Zaman Çizelgesi</h2>
             <Header>Kayıtlar</Header>
             <ListItem time="22 Mart 12.30">
@@ -21,7 +22,8 @@ export default function Timeline() {
             </ListItem>
             <Header>Final süreci</Header>
             <ListItem time="6 Nisan 11.30 - 17.30 ">
-                Yüz yüze final etabı.</ListItem>
+                Yüz yüze final etabı.
+            </ListItem>
             <Header>Son</Header>
         </section>
     );

@@ -10,8 +10,7 @@ export default function Navigation() {
         const handleResize = () => {
             document.documentElement.style.setProperty(
                 '--scroll-padding',
-                headerRef.current.offsetHeight +
-                    parseFloat(
+                headerRef.current.offsetHeight + parseFloat(
                         window
                             .getComputedStyle(headerRef.current)
                             .getPropertyValue('margin-top')

@@ -15,9 +15,8 @@
 
         & > a {
             color: #fff;
-            & > i {
-                cursor: pointer;
-            }
+
+            & > i { cursor: pointer; }
             & > svg {
                 cursor: pointer;
                 width: 1em; height: 1em;
@@ -29,8 +28,6 @@
 
 @media (max-width: 450px) {
     .footer {
-        & > img {
-            font-size: .8em;
-        }
+        & > img { font-size: .8em; }
     }
 }
