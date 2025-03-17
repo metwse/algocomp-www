@@ -3,14 +3,17 @@ import styles from "./Footer.module.scss"
 
 export default function Footer() {
     return (
-        <footer className={styles['footer']}>
+        <footer>
             <img src="/img/svg/logo-full.svg" />
-            <div>
+            <div className={styles['links']}>
                 <a href="https://github.com/ituacm" target="_blank">
                     <i className="bi bi-github"></i>
                 </a>
                 <a href="https://www.instagram.com/ituacmsc/" target="_blank">
                     <i className="bi bi-instagram"></i>
+                </a>
+                <a href="https://twitter.com/ituacmsc" target="_blank">
+                    <i className="bi bi-twitter-x"></i>
                 </a>
                 <a href="https://metw.cc/" target="_blank">
                     <svg href="" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
@@ -18,12 +21,25 @@ export default function Footer() {
                         <polygon fill="none" points="300 100 200 100 200 0 100 0 100 100 0 100 0 200 100 200 100 300 200 300 200 200 300 200"></polygon>
                     </svg>
                 </a>
-                <a href="https://twitter.com/ituacmsc" target="_blank">
-                    <i className="bi bi-twitter-x"></i>
-                </a>
                 <a href="https://www.linkedin.com/company/ituacmsc/" target="_blank">
                     <i className="bi bi-linkedin"></i>
                 </a>
+            </div>
+            <div className={styles['footer']}>
+                <span> 
+                    Copyright © 2025 ITU ACM
+                </span> 
+                <div>
+                    <a href="https://github.com/metwse/algocomp-www">
+                        Kaynak Kodları 
+                    </a>
+                    <a href="/kvkk.html">
+                        KVKK
+                    </a>
+                    <a href="https://opensource.org/license/mit">
+                        The MIT License
+                    </a>
+                </div>
             </div>
         </footer>
     );
