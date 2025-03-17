@@ -3,7 +3,7 @@
 
 .awards {
     display: flex;
-    padding: 2em;
+    padding: 2em; min-height: unset;
     flex-direction: column; gap: 2em;
 
     h2 {
