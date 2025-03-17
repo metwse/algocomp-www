@@ -51,7 +51,7 @@ export default function Faq() {
                         Hayır, her katılımcı sadece bir takımda yer almalıdır.
                     </Question>
                     <Question title="Hangi takımlar ödül almaya hak kazanacak?">
-                        Final etabı sonunda ilk 5 takım büyük ödüllerin sahibi
+                        Final etabı sonunda ilk 6 takım büyük ödüllerin sahibi
                         olacaktır.
                     </Question>
                     <Question title="Ödüller nasıl teslim edilecek?">

@@ -30,12 +30,13 @@ export default function Awards() {
         <section id="awards" className={styles['awards']} ref={section}>
             <h2>Ödüller</h2>
             <div className={styles['award-list']}>
-                <Award prize="2.500₺" place="4" />
-                <Award prize="15.000₺" place="2" />
-                <Award prize="20.000₺" place="1" />
-                <Award prize="10.000₺" place="3" />
-                <Award prize="2.500₺" place="5" ref={fifth} />
+                <Award prize="4.000₺" place="4" />
+                <Award prize="7.500₺" place="2" />
+                <Award prize="15.000₺" place="1" />
+                <Award prize="5.000₺" place="3" />
+                <Award prize="3.000₺" place="5" ref={fifth} />
             </div>
+            <Award prize="2.000₺" place="6" />
         </section>
     );
 }
