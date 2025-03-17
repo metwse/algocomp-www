@@ -27,7 +27,7 @@ export default function Footer() {
                     Copyright © 2025 ITU ACM
                 </span> 
                 <div>
-                    <a href="https://github.com/metwse/algocomp-www" target="_blank">
+                    <a className={styles['source']} href="https://github.com/metwse/algocomp-www" target="_blank">
                         Kaynak Kodları 
                     </a>
                     <a href="/kvkk.html">
