@@ -27,7 +27,8 @@ main {
         padding-top: var(--scroll-padding); scroll-padding-top: var(--scroll-padding);
         overflow: hidden auto;
        
-        & > * {
+        /* secitons with this class will cover at least a page */
+        & > .full-page {
             min-height: calc(100dvh - var(--scroll-padding));
         }
     }

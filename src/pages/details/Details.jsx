@@ -3,7 +3,7 @@ import styles from "./Details.module.scss"
 
 export default function Details() {
     return (
-        <section id="details" className={styles['details']}>
+        <section id="details" className={`full-page ${styles['details']}`}>
             <div className={styles['background-tiles']}></div>
             <div className={styles['texts']}>
                 <h2>

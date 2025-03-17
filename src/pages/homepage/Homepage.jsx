@@ -94,7 +94,11 @@ export default function Homepage() {
     }, []);
 
     return (
-        <section ref={homepageRef} className={styles['homepage']} id="homepage">
+        <section 
+            ref={homepageRef}
+            className={`full-page ${styles['homepage']}`}
+            id="homepage"
+        >
             <Glow className={styles['glare1']} />
             <Glow className={styles['glare2']} />
             <canvas ref={canvasRef}></canvas>

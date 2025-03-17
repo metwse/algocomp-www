@@ -7,7 +7,7 @@ import styles from "./Faq.module.scss"
 
 export default function Faq() {
     return (
-        <section id="faq" className={styles['faq']}>
+        <section id="faq" className={`full-page ${styles['faq']}`}>
             <div>
                 <h2>Sıkça Sorulan Sorular</h2>
                 <div className={styles['questions']}>
