@@ -21,7 +21,7 @@
 .award {
     display: flex;
     color: color.adjust(theme.$base-color, $lightness: 16%);
-    flex-direction: column; align-items: center; gap: 2em;
+    flex-direction: column; align-items: center; gap: 1em;
 
     & > div {
         display: flex;
@@ -65,11 +65,12 @@
 @media (max-width: 720px) {
     .award-list {
         display: grid;
-        grid-template-columns: 1fr 1fr; gap: .75em;
+        grid-template-columns: 1fr 1fr; gap: 1.25em .75em;
     }
 
     .award {
         transform: translateY(0) !important;
+        gap: .75em
     }
 
     .award:nth-of-type(1) { order: 5 }
