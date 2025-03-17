@@ -1,0 +1,40 @@
+:root {
+    --bg: #17191C;
+    --bg2: #222326;
+
+    --fg: #FFFFFF;
+
+    --base-color: #00A5EB;
+}
+
+* {
+    font-family: Inter Tight, sans;
+    color: var(--fg);
+}
+
+body {
+    margin: 2em auto; padding: 4em;
+    max-width: 60em;
+    background-color: var(--bg);
+}
+
+a { color: var(--base-color); }
+
+.homepage {
+    display: block;
+    margin: .25em 1em;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: min(calc(100% - 4em), 32em);
+}
+
+h1 { border-bottom: solid .125em var(--bg2); }
+
+h2 { border-bottom: solid .125em var(--bg2); }
+
+ul { list-style: none; }
+
+li { margin: .25em 0; }
