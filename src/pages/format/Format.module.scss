@@ -7,19 +7,21 @@
         max-width: min(48em, calc(100% - 4em));
         border-bottom: .125em solid theme.$bg2;
 
-        &:last-of-type {
-            border: none;
-        }
+        &:last-of-type { border: none; }
 
         h3 {
-          margin: 0;
-          font-size: 2.25em; font-weight: bold;
+            margin: 0;
+            font-size: 2.25em; font-weight: bold;
         }
 
-        div {
-          margin: 1em 0 0;
-          opacity: .75;
-          font-size: 1.125em;
+        ul, div {
+            margin: 1em 0 0;
+            font-size: 1.125em;
+            opacity: .75;
         }
+
+        ul { padding-left: 1em }
+
+        li:not(:last-of-type) { margin-bottom: 1em }
     }
 }
