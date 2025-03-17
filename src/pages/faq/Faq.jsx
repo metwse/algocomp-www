@@ -36,13 +36,13 @@ export default function Faq() {
                     </Question>
                     <Question title="Yarışmaya nasıl hazırlanabilirim?">
                         Konu çalışmak için Algoritma 101 eğitimimizin
-                        materyallerini buradan inceleyebilir, ITU ACM Student
-                        Chapter YouTube kanalında yayınlanan algoritma soru
-                        çözümü serisini izleyebilir ve 100'den fazla sorunun
-                        editorial'ını yazdığımız arşive buradan erişebilirsiniz.
+                        materyallerini <a href="https://github.com/ituacm/ITU-ACM-22-23-Algo101">buradan</a>  inceleyebilir, ITU ACM Student
+                        Chapter YouTube kanalında yayınlanan <a href="https://www.youtube.com/playlist?list=PLtEjlLntE5eBLxL2kMStBKMMgbBzS-p0D">algoritma soru
+                        çözümü serisini</a> izleyebilir ve 100'den fazla sorunun
+                        editorial'ını yazdığımız arşive <a href="https://github.com/ituacm/ITU-ACM-AlgoTeam">buradan</a> erişebilirsiniz.
                     </Question>
                     <Question title="Etkinlik nerede yapılacak?">
-                        Etkinliğimiz ön elemede çevrim içi olarak AlgoLeague
+                        Etkinliğimiz ön elemede çevrim içi olarak algoleague
                         platformu üzerinden gerçekleştirilecektir. Final etabı
                         İstanbul'da, İTÜ Bilgisayar Bilişim Fakültesinde
                         yüzyüze gerçekleşecektir!

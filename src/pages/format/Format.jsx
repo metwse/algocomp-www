@@ -17,9 +17,9 @@ export default function Format() {
                     toplayan 15 takım finalist olmaya hak kazanacaktır.
                     <br />
                     <br />
-                    24 Şubat 2024 tarihinde düzenlenecek olan final etabında
+                    6 Nisan 2025 tarihinde düzenlenecek olan final etabında
                     ise yarışmacıların ön eleme etabından daha zorlayıcı 8-11
-                    algoritma sorusuna 6 saat içerisinde çözüm bulmaları
+                    algoritma sorusuna 5 saat içerisinde çözüm bulmaları
                     gerekmektedir. En çok puan toplayan 5 takım büyük ödüllerin
                     sahibi olacaktır.
                 </div>
@@ -28,7 +28,7 @@ export default function Format() {
                 <h3>Katılım Kuralları</h3>
                 <ul>
                     <li>
-                        Başvurular 11 Şubat 2024 tarihine kadar yapılmalıdır,
+                        Başvurular 22 Mart 2025 tarihine kadar yapılmalıdır,
                         bu tarihten sonra başvuru alınmayacaktır ve yarışmacı
                         kayıtları sonlandırılacaktır.
                     </li>

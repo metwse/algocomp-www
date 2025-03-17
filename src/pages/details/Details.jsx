@@ -14,7 +14,7 @@ export default function Details() {
                     algoComp’25, ITU ACM Student Chapter tarafından düzenlenen
                     prestijli bir algoritma yarışmasıdır. Katılımcılar,
                     karmaşık problemleri hızla analiz ederek en verimli ve
-                    optimize çözümleri üretmeye çalışacak.
+                    optimize çözümleri üretmeye çalışırlar.
                     <br />
                     <br />
                     Yarışma, algoritmik düşünme, sınırlı kaynaklarla en ideal
