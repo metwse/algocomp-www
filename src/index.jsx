@@ -15,7 +15,7 @@ import './css/default.scss'
 import './css/shared.scss'
 
 
-const main = document.querySelector('main'); 
+const main = document.querySelector('main');
 
 createRoot(main).render(
     <StrictMode>

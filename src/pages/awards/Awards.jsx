@@ -17,7 +17,7 @@ export default function Awards() {
                 const minHeight = f.offsetHeight * 2.5 + f.offsetTop - s.offsetTop;
 
                 s.style.minHeight = minHeight + 'px';
-            } else 
+            } else
                 s.style.minHeight = 'unset';
         }
 

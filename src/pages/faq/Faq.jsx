@@ -26,8 +26,8 @@ export default function Faq() {
                         Takımlar en fazla 3 kişi olmalıdır.
                     </Question>
                     <Question title="Nasıl takım halinde başvuru yapabiliriz?">
-                        <a 
-                            href="https://algoleague.com/contest/algocomp25-qualification-round/description" 
+                        <a
+                            href="https://algoleague.com/contest/algocomp25-qualification-round/description"
                             target="_blank"
                         >
                             Bu link
